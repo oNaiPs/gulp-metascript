@@ -1,0 +1,24 @@
+{
+  "name": "gulp-metascript",
+  "version": "0.0.1",
+  "description": "Gulp plugin for metascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oNaiPs/gulp-metascript.git"
+  },
+  "author": "Jose Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oNaiPs/gulp-metascript/issues"
+  },
+  "homepage": "https://github.com/oNaiPs/gulp-metascript",
+  "devDependencies": {
+    "gulp-util": "^3.0.3",
+    "metascript": "^1.0.0",
+    "through2": "^0.6.3"
+  }
+}
