@@ -35,7 +35,7 @@ module.exports = function (context) {
 
             try {
                 file.contents = new Buffer(
-                    meta.transform(file.contents, undefined, context));
+                    meta.transform(file.contents, file.path, context));
             } catch (err) {
                 return callback(createError(file, err));
                 }
